@@ -62,7 +62,7 @@ def normalise_input(user_input):
     'help'
     """
     A = remove_punct(user_input)
-    B = remove_spaces(A)
+    B = remove_spaces(A).lower()
     return(B)
     pass
 
